@@ -19,5 +19,8 @@
     "vue": "latest",
     "vue-router": "latest",
     "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@iconify-json/octicon": "^1.2.5"
   }
 }
