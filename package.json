@@ -21,6 +21,7 @@
     "zod": "^3.24.2"
   },
   "devDependencies": {
+    "@iconify-json/lucide": "^1.2.29",
     "@iconify-json/octicon": "^1.2.5"
   }
 }

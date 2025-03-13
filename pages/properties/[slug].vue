@@ -24,7 +24,6 @@ const { status, data: post } = await useFetch(`https://resthotels.it/api/listing
       <div class="flex">
         <h3>category:{{ post?.data?.category?.title }}</h3>
         <UIcon name="i-lucide-chevron-left" class="size-5" />
-        <UIcon name="i-kid-star-outlined" class="size-5" />
         <div>4.5 (5.6K ratings)</div>
       </div>
       <ImageGallery />
