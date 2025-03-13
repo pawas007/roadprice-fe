@@ -12,7 +12,7 @@
     <div class="flex gap-2">
       <div class="w-1/3 h-72 relative">
         <NuxtLink :to="`/properties/${post.id}`">
-          <img src="/public/placeholder.svg" alt="house" class="w-full h-full object-cover rounded-lg">
+          <img src="https://ui.shadcn.com/placeholder.svg" alt="house" class="w-full h-full object-cover rounded-lg">
           <div class="absolute top-2 left-2 flex gap-1">
   
             <!-- 
@@ -63,8 +63,7 @@
         <div class="flex justify-between text-lg">
           <div class="flex items-center gap-2">
             <div class="w-8 h-8">
-              <img v-if="post.user.avatar" :src="post.user.last_name" alt="avatar" class="w-full h-full object-cover rounded-full">
-              <img v-else src="/public/placeholder.svg" alt="avatar" class="w-full h-full object-cover rounded-full">
+              <img src="https://ui.shadcn.com/placeholder.svg" alt="avatar" class="w-full h-full object-cover rounded-full">
             </div>
             {{post?.user?.first_name}} {{post?.user?.last_name}}
           </div>

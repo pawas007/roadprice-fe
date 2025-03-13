@@ -2,9 +2,9 @@
     <UCard class="transform transition hover:-translate-y-1 duration-300">
               <template #header>
                 <!-- <h2 class="text-lg font-semibold">{{ post.title }}</h2> -->
-                <img class="w-full rounded-t-xl" src="https://aws-tiqets-cdn.imgix.net/images/content/dd970a799d2d4cad9ab8e7a94daa0fce.png" alt="Sunset in the mountains" />
+                <img class="w-full rounded-t-xl" src="https://ui.shadcn.com/placeholder.svg" alt="Sunset in the mountains" />
               </template>
-                          <!-- <img src="/placeholder.svg" :alt="post.title" class="w-full h-auto object-cover" /> -->
+                          <!-- <img src="https://ui.shadcn.com/placeholder.svg" :alt="post.title" class="w-full h-auto object-cover" /> -->
               <template #footer>
                 <section class="basis-full p-3 lg:p-4 flex flex-col gap-1 justify-between">
                     <div class="space-y-1">
