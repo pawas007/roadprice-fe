@@ -17,7 +17,7 @@ const labels = computed(() => {
   <UCard v-if="post" class="transform transition hover:-translate-y-1 duration-300">
     <div class="flex gap-2">
       <div class="w-1/3 h-72 relative">
-        <NuxtLink :to="`/properties/${post.id}`">
+        <NuxtLink :to="{name:'properties-slug',params: { slug: post.id }}">
           <img src="/public/placeholder.svg" alt="house" class="w-full h-full object-cover rounded-lg">
           <div class="absolute top-2 left-2 flex gap-1">
             <template

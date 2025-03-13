@@ -7,6 +7,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ["@nuxt/ui"],
   css: ["~/assets/css/main.css"],
+  ssr: true,
   build: {
     output: {
       entrFileNames: "assets/js/[name].[hash].js",
